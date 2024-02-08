@@ -1,11 +1,14 @@
-import "./App.css";
+import React from "react";
+import { Title } from "./AppStyled";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <>
+      <Routes>
+        <Route path="./home" />
+      </Routes>
+      <Title>Ola Mundo</Title>{" "}
+    </>
   );
-}
-
-export default App;
+};
