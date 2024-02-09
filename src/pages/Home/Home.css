@@ -1,0 +1,9 @@
+.homeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContent img {
+  width: 25em;
+}

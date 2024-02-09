@@ -1,0 +1,37 @@
+/* Sidebar.css */
+
+.sidebar {
+  position: fixed;
+  left: -150px; /* Define a largura inicial do sidebar */
+  top: 0;
+  bottom: 0;
+  width: 200px; /* Largura do sidebar quando visível */
+  background-color: #3333335e;
+  color: white;
+  transition: left 0.5s ease; /* Adiciona uma transição suave de 0.3 segundos */
+  overflow-y: auto;
+}
+
+.sidebar:hover {
+  left: 0; /* Quando o mouse passa por cima, move o sidebar para a posição visível */
+  background-color: #333333;
+}
+
+.iconMenu {
+  position: relative;
+  top: 50%;
+  /* right: 10; */
+  left: 80%;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 30px;
+  border-color: transparent transparent transparent #ffffff; /* Cor da seta */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave para a mudança de direção */
+
+  /* Rotaciona a seta para a direita por padrão */
+  transform: rotate(0deg);
+}
