@@ -1,0 +1,10 @@
+.loginContentd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.loginContentd form {
+  padding: 5em;
+}

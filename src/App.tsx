@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import { ApliqueList } from "./pages/Apliques/ApliqueList";
+import { Login } from "./pages/Login/Login";
 
 const App = () => {
   // const PrivateRoute = ({ children, redirectTo }) => {
@@ -16,6 +17,7 @@ const App = () => {
 
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/aplique-lista" element={<ApliqueList />} />
       </Routes>
       {/* <Title>Ola Mundo</Title> */}
